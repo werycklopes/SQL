@@ -1,7 +1,7 @@
 #1 - QUERY DE TODOS OS NOMES EM ORDEM ALFABÉTICA CONCATENADO COM A PRIMEIRA LETRA DA PROFISSÃO ENTRE ( )
 #2 - CONSULTAR O NÚMERO DE CADA VEZ QUE A OCUPAÇÃO É CITADA
-#    'There are a total of [occupation_count] [occupation]s'
-#   2.1 - 
+#3 - 'There are a total of [occupation_count] [occupation]s'
+
 
 
 SELECT concat(Name, '(', SUBSTR(Occupation, 1, 1), ')' )
